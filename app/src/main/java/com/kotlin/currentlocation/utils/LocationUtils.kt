@@ -6,7 +6,7 @@ import android.location.LocationManager
 import android.provider.Settings
 import androidx.appcompat.app.AlertDialog
 
-class PermissionUtils {
+class LocationUtils {
 
     fun isLocationEnabled(context: Context): Boolean {
         val locationManager: LocationManager = context.getSystemService(Context.LOCATION_SERVICE) as LocationManager
